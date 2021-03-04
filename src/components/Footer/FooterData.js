@@ -1,27 +1,27 @@
 export const AboutUs=[
     {
         title:'How it works',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Testimonials',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Careers',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Investors',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Terms of Service',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
 ]
@@ -29,22 +29,22 @@ export const AboutUs=[
 export const ContactUs =[
     {
         title:'Contact',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Support',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Destinations',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Sponserships',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
 ]
@@ -52,22 +52,22 @@ export const ContactUs =[
 export const Videos=[
     {
         title:'Submit Video',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Ambassadors',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Agency',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Influencer',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
 ]
@@ -75,22 +75,22 @@ export const Videos=[
 export const SocialMedia=[
     {
         title:'Instagram',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Facebook',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Youtube',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
     {
         title:'Twitter',
-        path:'#',
+        path:'/#',
         cName:'ft-link'
     },
 ]

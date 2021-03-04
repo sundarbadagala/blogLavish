@@ -1,0 +1,81 @@
+.sc-top{
+    width: 270px;
+    height: 430px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sc-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    background: rgb(0, 54, 7);
+    color: white;
+    border-radius: 5px;
+    /* margin: 20px; */
+    transition: all 0.2s ease-out;
+    border: 1px solid rgb(136, 136, 136);
+}
+.sc-main-i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    background: rgb(78, 92, 0);
+    color: white;
+    border-radius: 5px;
+    /* margin: 20px; */
+    transition: all 0.2s ease-out;
+    border: 1px solid rgb(134, 134, 134);
+}
+.sc-main:hover{
+    width: 260px;
+    height: 410px; 
+    background: rgb(0, 83, 11);
+}
+.sc-main-i:hover{
+    width: 260px;
+    height: 410px; 
+    background: rgb(90, 105, 0);
+}
+.sc-logo{
+    font-size: 4rem;
+}
+.sc-user{
+    margin: 20px;
+    font-size: 20px;
+}
+.sc-price{
+    font-size: 30px;
+}
+.sc-time{
+    font-size: 10px;
+}
+.sc-details{
+    /* border: 1px solid black; */
+    padding: 20px;
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+}
+.sc-btn{
+    background: white;
+    border: 2px solid white;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.sc-btn:hover{
+    background: none;
+    color: white;
+}
+
+

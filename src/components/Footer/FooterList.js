@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {AboutUs} from './FooterData'
+import './FooterList.css'
 
 function FooterList({header, name}) {
     return (
-        <div>
-            <h3>{header}</h3>
+        <div className='fl-main'>
+            <h3 className='fl-header'>{header}</h3>
+            <ul>
             {
-                name.map(item => item.title)
+                name.map(item => <li className='fl-list-items'><Link className={item.cName} to={item.path}>{item.title}</Link></li>)
             }
+            </ul>
         </div>
     )
 }

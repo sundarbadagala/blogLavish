@@ -1,0 +1,124 @@
+.hc-main{
+    background: rgb(0, 0, 41);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.hc-main-reverse{
+    background: rgb(22, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hc-info{
+    width: 60%;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    padding: 50px;
+}
+h3{
+    font-size: 20px;
+    color: red;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    margin-bottom: 20px;
+}
+.hc-btn{
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    background: linear-gradient(180deg, rgb(29, 32, 255)0%, rgb(71, 58, 255)100%);
+}
+.hc-btn:hover{
+    background: linear-gradient(180deg, rgb(71, 58, 255)0%, rgb(29, 32, 255)100%);
+}
+.hc-logobar{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hc-logo{
+    width: 500px;
+}
+
+@media screen and (max-width:1024px){
+    .hc-main{
+        background: rgb(0, 0, 41);
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: row;
+    }
+    .hc-main-reverse{
+        background: rgb(22, 0, 0);
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .hc-info{
+        width: 60%;
+        /* border: 1px solid white; */
+        margin-top: 100px;
+        padding: 50px;
+    }
+    .hc-logo{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .hc-main{
+        background: rgb(0, 0, 41);
+        width: 100%;
+        height:inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hc-main-reverse{
+        background: rgb(22, 0, 0);
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .hc-logo{
+        width: 400px;
+        margin: 20px;
+    }
+    .hc-info{
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .hc-logo{
+        width: 300px;
+        margin: 20px;
+    }
+    .hc-info{
+        width: 100%;
+        /* border: 1px solid black; */
+        /* margin-top: 10px; */
+        
+    }
+}
