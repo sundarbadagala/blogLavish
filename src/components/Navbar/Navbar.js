@@ -10,7 +10,7 @@ function Navbar() {
     }
     return (
         <div className='nav-main'>
-            <div className='nav-logo' onClick={clickHandler}>
+            <div className='nav-logo'>
                 <Link to='/' className='logo-link'>
                      Lavish <i className="fad fa-fingerprint"></i>
                 </Link>
