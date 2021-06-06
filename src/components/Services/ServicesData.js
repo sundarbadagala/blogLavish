@@ -8,7 +8,7 @@ export const Starter ={
 }
 
 export const Gold={
-    logo:'fa fa-fire',
+    logo:'fas fa-star',
     user:'Gold',
     price:'300/-',
     time:'per month',

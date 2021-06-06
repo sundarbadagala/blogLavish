@@ -39,6 +39,7 @@ p{
     border-radius: 3px;
     color: white;
     background: linear-gradient(180deg, rgb(29, 32, 255)0%, rgb(71, 58, 255)100%);
+    cursor: pointer;
 }
 .hc-btn:hover{
     background: linear-gradient(180deg, rgb(71, 58, 255)0%, rgb(29, 32, 255)100%);
@@ -50,7 +51,7 @@ p{
     align-content: center;
 }
 .hc-logo{
-    width: 500px;
+    max-width: 500px;
 }
 
 @media screen and (max-width:1024px){
@@ -94,7 +95,7 @@ p{
         width: 100%;
         height: inherit;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

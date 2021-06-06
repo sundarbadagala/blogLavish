@@ -1,0 +1,13 @@
+.pd-info{
+    position: relative;
+    color: black;
+    display: flex;
+    border: 1px solid white;
+    background-color: rgb(73, 74, 121);
+}
+.pd-info  h1{
+    color: blacks;
+}
+.pd-image{
+    height: 200px;
+}
